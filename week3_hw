@@ -8,7 +8,6 @@ body {
 }
 
 .blue { background: lightblue; }
-.
 #brown{ color: brown;}
 #pink{ background: pink; }
 h1 {
