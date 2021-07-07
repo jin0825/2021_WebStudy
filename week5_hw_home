@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML 과제</title>
+<style>
+body {
+  background-color: ivory;
+}
+
+.blue { background-color: rgb(204, 234, 248); }
+#brown{ color: brown;}
+#pink{ background-color: pink; }
+
+h1 {
+  text-align: center;
+  background: grey;
+  color: white;
+}
+
+h2 {
+  color: grey;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    background-color: black;
+    position:fixed;
+    height: 100%;
+    overflow: auto;
+
+}
+
+li { float: left; }
+
+li a:link, li a:visited {
+    display: block;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    width: 150px;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+li a:active{
+    background-color: darkblue;
+    color: white;
+}
+
+li a:hover{
+    background-color: cornflowerblue;
+    color: white;
+}
+
+</style>
+
+</head>
+<body>
+    <ul>
+        <li><a href="hw5.html"> HOME</a></li>
+        <li><a href="hw5_1.html">내 취미</a></li>
+        <li><a href="hw5_2.html">한마디 남기기</a></li>
+    </ul>
+<center>
+  <div id="Profile" class="ivory">
+
+    <h2>Profile</h2>
+    <img src="http://flexible.img.hani.co.kr/flexible/normal/970/647/imgdb/original/2021/0210/20210210502956.jpg" height="240" width="320"/>
+    <p id="brown">이름: 김지인</p>
+    <p>소속: <a href="https://software.cbnu.ac.kr/" target="_blank">CBNU computer science</a></p>
+  </div>
+  <div class="blue" id="Family">
+    <h2>Family</h2>
+    <h4>Father</h4>
+    <h4>Mother</h4>
+    <h4>Sister 1,2</h4>
+ 
+  </div>
+
+  <div id="Schedule">
+    <h2>Schedule</h2> 
+    <table border="1">
+      <tr id="pink">
+        <th scope="col" colspan="2">Saturday~Wednesday</th>
+        <th scope="col">Thursday</th>
+        <th scope="col">Friday</th>
+      </tr>
+      <tbody>
+        <tr>
+          <td colspan="3">Computer science</td>
+          <td rowspan="2">ROTC</td>
+        </tr>
+        <tr>
+          <td colspan="2">Algorithm</td>
+          <td>Project</td>
+        </tr>
+      </tbody>
+    </table>
+</center>
+</body>
+</html>
