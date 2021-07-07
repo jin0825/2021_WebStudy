@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: beige;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    background-color: black;
+    position:fixed;
+    height: 100%;
+    overflow: auto;
+
+}
+
+li { float: left; }
+
+li a:link, li a:visited{
+    display: block;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    width: 150px;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+li a:active{
+    background-color: darkblue;
+    color: white;
+}
+
+li a:hover{
+    background-color: cornflowerblue;
+    color: white;
+}
+</style>
+ 
+</head>
+<body>
+    <ul>
+        <li><a href="hw5.html"> HOME</a></li>
+        <li><a href="hw5_1.html">내 취미</a></li>
+        <li><a href="hw5_2.html">한마디 남기기</a></li>
+    </ul>
+<center>
+  <h1>내 취미</h1>
+  <hr>
+  <br>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/G7pdq0n0--4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+   <br>
+   <br>
+   <br>
+   <br>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/VcqnABXK-m4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</center>
+</body>
+</html>
