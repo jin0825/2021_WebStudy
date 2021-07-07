@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: beige;
+}
+
+h1 {
+  color: black;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+.box {
+  width:400px;
+  height:200px;
+  font-size:20px;
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    background-color:black;
+    position:fixed;
+    height: 100%;
+    overflow: auto;
+
+}
+
+li { float: left; }
+
+li a:link, li a:visited{
+    display: block;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+    width: 150px;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+li a:active{
+    background-color: darkblue;
+    color: white;
+}
+
+li a:hover{
+    background-color: cornflowerblue;
+    color: white;
+}
+</style>
+ 
+</head>
+<body>
+    <ul>
+        <li><a href="hw5.html"> HOME</a></li>
+        <li><a href="hw5_1.html">내 취미</a></li>
+        <li><a href="hw5_2.html">한마디 남기기</a></li>
+    </ul>
+  <h1>한마디 남기기</h1>
+  <hr>
+  <br></br>
+ <center>
+
+    <label for="username">한마디를 남겨주세요!</label><br>
+    <input type="text" name="username" id="username" class="box">
+    <br>
+    <input type="submit" value="보내기">
+</center>
+</body>
+</html>
